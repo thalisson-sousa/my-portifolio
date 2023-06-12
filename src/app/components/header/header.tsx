@@ -10,10 +10,10 @@ export default function header() {
           <h2>FrontEnd Developer</h2>
         </div>
         <Image
-          src="/perfil.png"
+          src="/me.jpeg"
           alt="Next.js Logo"
-          width={325}
-          height={300}
+          width={315}
+          height={330}
           priority
         />
       </div>
