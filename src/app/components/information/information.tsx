@@ -6,7 +6,7 @@ export default function Info() {
         <div className="infos">
         <SectionTitle text="Languages"/>
         <div className="languages-info">
-          <span>✈️ EN - Initial</span>
+          <span>✈️ EN - Beginner</span>
           <span>✈️ PT-BR - Native Speaker</span>
         </div>
         <div className="educational-info">
