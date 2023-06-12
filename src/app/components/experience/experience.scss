@@ -14,6 +14,68 @@
         text-align: center;
     }
 
+    img {
+        filter: grayscale(100%);
+    }
+
+    .experience-time {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .experience-language {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .experience-unit {
+        display: flex;
+        width: 300px;
+        height: 30px;
+        border-radius: 24px;
+        border: 1px solid var(--text-secundary);
+
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .experience-measure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 24px;
+        height: 30px;
+        border: 1px solid  var(--linear-gradient);
+        background: var(--linear-gradient);
+
+        color: var(---btn);
+        font-weight: 400;
+        text-align: center;
+        font-size: 12px;
+
+        &.measure-1 {
+            width: 25%;
+        }
+
+        &.measure-2 {
+            width: 45%;
+        }
+
+        &.measure-3 {
+            width: 70%;
+        }
+
+        &.measure-4 {
+            width: 85%;
+        }
+    }
+
     @media (min-width: 768px) {
         align-items: flex-start;
         p {

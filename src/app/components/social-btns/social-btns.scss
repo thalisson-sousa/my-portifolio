@@ -15,4 +15,8 @@
         align-items: center;
         justify-content: center;
     }
+
+    a:hover {
+        background:  var(--linear-gradient);
+    }
 }

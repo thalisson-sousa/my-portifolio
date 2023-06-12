@@ -12,8 +12,10 @@ export default function Info() {
         <div className="educational-info">
         <SectionTitle text="Education"/>
           <span>
-          👨‍🎓 Computer Science Bachelors Degree - Universidade Federal de
-            Pelotas
+            <ul>
+              <li>👨‍🎓 Graduated in IT Management</li>
+              <li>PostGraduate in Computer Networks</li>
+            </ul>
           </span>
         </div>
       </div>
