@@ -13,7 +13,7 @@ export default function header() {
           src="/perfil.png"
           alt="Next.js Logo"
           width={325}
-          height={270}
+          height={300}
           priority
         />
       </div>
