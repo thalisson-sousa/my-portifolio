@@ -1,6 +1,7 @@
 import Image from "next/image";
 import SectionTitle from "../sectionTitle/sectionTitle";
 import "./experience.scss";
+import { Language } from "./languagens";
 
 export default function Experience() {
   return (
@@ -10,50 +11,13 @@ export default function Experience() {
         5 years of experience in the IT area, currently working as a full network analyst, I have the goal of migrating my career to Dev
       </p>
       <div className="experience-time">
-        <div className="experience-language">
-          <Image
-            src="/react.png"
-            alt="React.js Logo"
-            width={40}
-            height={40}
-            priority
-          />
-          <div className="experience-unit">
-            <div className="experience-measure measure-2">
-              <span>2 month</span>
-            </div>
-          </div>
-        </div>
-        <div className="experience-language">
-          <Image src="/js.png" alt="js Logo" width={40} height={40} priority />
-          <div className="experience-unit">
-            <div className="experience-measure measure-4">
-              <span>4 month</span>
-            </div>
-          </div>
-        </div>
-        <div className="experience-language">
-          <Image src="/node.svg" alt="ts Logo" width={40} height={40} priority />
-          <div className="experience-unit">
-            <div className="experience-measure measure-3">
-              <span>3 month</span>
-            </div>
-          </div>
-        </div>
-        <div className="experience-language">
-          <Image
-            src="/java.png"
-            alt="java Logo"
-            width={40}
-            height={40}
-            priority
-          />
-          <div className="experience-unit">
-            <div className="experience-measure measure-1">
-              <span>1 month</span>
-            </div>
-          </div>
-        </div>
+
+        <Language src="/reacthover.png" alt="React Logo" measure="measure-2" time="2 Month"/>
+        <Language src="/javascript.png" alt="js Logo" measure="measure-4" time="4 Month"/>
+        <Language src="/node.svg" alt="Node Logo" measure="measure-3" time="3 Month"/>
+        <Language src="/javahover.png" alt="Java Logo" measure="measure-1" time="1 Month"/>
+        <Language src="/sql.png" alt="Mysql Logo" measure="measure-1" time="1 Month"/>
+
       </div>
     </div>
   );

@@ -18,6 +18,10 @@
         filter: grayscale(100%);
     }
 
+    img:hover {
+        filter: grayscale(0%);
+    }
+
     .experience-time {
         display: flex;
         align-items: center;
@@ -59,6 +63,9 @@
         text-align: center;
         font-size: 12px;
 
+        position: relative;
+        z-index: 1;
+
         &.measure-1 {
             width: 25%;
         }
@@ -75,6 +82,38 @@
             width: 85%;
         }
     }
+
+    .experience-measure::after{
+        content: '';
+        display: inline-block;
+        width: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 24px;
+        height: 30px;
+        border: 1px solid  var(--linear-gradient);
+        background:  #70F570;
+        z-index: -1;
+        transition: width 0.5s ease-in-out;
+
+    }
+
+    .experience-measure:hover::after{
+        width: 100%;
+    }
+    .experience-measure:hover{
+        width: 100%;
+
+        &.measure-1,
+        .measure-2,
+        .measure-3,
+        .measure-4 {
+            width: 100%;
+        }
+        
+    }
+     
 
     @media (min-width: 768px) {
         align-items: flex-start;
