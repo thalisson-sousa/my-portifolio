@@ -1,13 +1,6 @@
 import Image from "next/image";
 
-interface LanguageProps {
-    src: string,
-    alt: string,
-    time: string,
-    measure: string
-}
-
-export function Language({src, alt, measure, time} : LanguageProps) {
+export function Language({src, alt, measure, time}) {
   return (
     <div className="experience-language">
       <Image

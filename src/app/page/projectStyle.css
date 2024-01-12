@@ -1,0 +1,14 @@
+.css1 {display: "flex"; flexWrap: "wrap"; gap: "10px"}
+
+.css2 {
+  border: "1px solid black"; 
+  marginBottom: "2px";
+  padding: "1em"; background: "brown";
+  width: "550px"
+}
+
+.css3 {display: "flex"; gap: "1em"; alignItems: "center"}
+.css4 {width: "40px"; height: "40px"; borderRadius: "50%"}
+.css5 {textDecoration: "none"; color: "white"}
+.css6 {display: "flex"; justifyContent: "space-between"}
+.css7 {display: "flex"; flexDirection: "column"; justifyContent: "center"; alignItems: "baseline"; textAlign: "center"}
